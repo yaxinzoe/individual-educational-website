@@ -1,0 +1,188 @@
+body {
+    background-image: url(../images/sailing6.jpeg);
+    background-repeat:no-repeat;
+    height:auto;
+    width:auto;
+    background-size:cover;
+    vertical-align: middle;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size:cover;
+    min-width:1024px;
+}
+
+
+#p {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    float:center;
+    text-align: center;
+    font-size: 4.0em;
+}
+
+#main-menu{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#main-menu ul {
+    font-size:1.5em;
+    padding:0.5em ;
+    text-align: center;
+    list-style-type: none;
+    margin-left:8em;
+    overflow: hidden;
+    background-color:transparent;
+  }
+  
+#main-menu li {
+    float: left;
+    padding:0.5em 0.8em;
+  }
+  
+#main-menu  li a, .dropbutton {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+#main-menu li.dropdown {
+    display: inline-block;
+  }
+  
+#main-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+#main-menu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+#main-menu .dropdown-content a:hover {background-color: rgb(27, 91, 133);color:white;}
+  
+#main-menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#chapters{
+    width:1000px;
+    margin:13em auto;
+    margin-top: 1em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#chapters article {
+	border: 2px solid #888;
+	padding: 1em 2em;
+	border-radius: 10px;
+    margin-top: 2em;
+    background-color:white;
+}
+
+#chapters article > h2 {
+	text-align: center;
+    margin-bottom: 2em;
+    font-size:2em;
+}
+
+#font-size{
+    font-size:1.3em;
+}
+
+#font-size1{
+    font-size:1.3em;
+    text-indent:-2em;
+    margin-left:0.5em;
+    margin-top:-1em;
+}
+
+#chapters article > h2:before,
+#chapters article > h2:after {
+	content:"\2708";
+	color: rgb(27, 91, 133);
+}
+
+#chapters article > h2:before {
+	padding-right: 1em;
+}
+
+#chapters article > h2:after {
+	padding-left: 1em;
+}
+
+
+#chapters figure {
+	float: right;
+}
+
+figure {
+	max-width: 200px;
+    margin: 0;
+}
+
+figure img {
+	display: block;
+	max-width: 100%;
+}
+
+figcaption {
+	margin-top: 5px;
+	color: rgb(27, 91, 133);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+	text-align: center;
+}
+
+.video{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#bottom-menu{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:1.0em;
+    background-color: black;
+
+}
+
+#bottom-menu ul {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+#bottom-menu li {
+    list-style:none;
+    padding:0.1em 0.8em;
+}
+
+#bottom-menu a{
+    text-decoration: none;
+    color:grey;
+}
+
+#bottom-menu a:link{
+    text-decoration: none;
+    color:grey;
+}
+
+#bottom-menu a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+#bottom-menu .bottom-menu-firstline{
+    color:white;
+}
+
